@@ -70,7 +70,7 @@ jumpSound.set_volume(0.8)
 rollSound = pygame.mixer.Sound("whoosh.wav")
 rollSound.set_volume(0.3)
 
-buttonClick = pygame.mixer.Sound("button.wav")
+buttonClick = pygame.mixer.Sound("button.ogg")
 buttonClick.set_volume(0.7)
 
 #background music
