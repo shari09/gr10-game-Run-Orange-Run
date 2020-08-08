@@ -7,6 +7,11 @@ Description: This game's objective is to not be turned into orange juice.
 import pygame
 import random
 
+import os
+x = os.path.dirname(os.path.realpath(__file__)) + '/../'
+print(x)
+os.chdir(x)
+
 pygame.init()
 
 #screen size
